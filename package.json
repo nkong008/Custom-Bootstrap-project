@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "customized Bootstrap project.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "start"
   },

@@ -1,0 +1,24 @@
+$primary: #f5df4d;
+$secondary: rgb(147,149,151);
+$light: rgb(172,163,202);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+    "nancyLight": #00ffff,
+    "nancyDark": #b34100
+);
+
+$theme-colors:map-merge($custom-theme-colors , $theme-colors);
+
+// apply bootstrap before the container
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+#wrapper-container {
+    height: 100vh;
+    #nav {
+        height: 70px;
+    }
+}
