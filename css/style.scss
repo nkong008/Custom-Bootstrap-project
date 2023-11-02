@@ -16,8 +16,9 @@ $theme-colors:map-merge($custom-theme-colors , $theme-colors);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
-#wrapper-container {
+.wrapper-container {
     height: 100vh;
+
     #nav {
         height: 70px;
     }

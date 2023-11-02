@@ -12376,9 +12376,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#wrapper-container {
+.wrapper-container {
   height: 100vh;
 }
-#wrapper-container #nav {
+.wrapper-container #nav {
   height: 70px;
 }/*# sourceMappingURL=style.css.map */
