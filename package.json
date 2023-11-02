@@ -1,0 +1,25 @@
+{
+  "name": "custom-bootstrap-project",
+  "version": "1.0.0",
+  "description": "customized Bootstrap project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkong008/Custom-Bootstrap-project.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Nancy Kong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkong008/Custom-Bootstrap-project/issues"
+  },
+  "homepage": "https://github.com/nkong008/Custom-Bootstrap-project#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
