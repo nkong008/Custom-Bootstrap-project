@@ -1,33 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Starter File</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Starter File</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <div class="container-fluid bg-nancyDark">
-        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" id="nav">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Nancy</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">About</a>
-                  <a class="nav-link" href="#">Services</a>
-                  <a class="nav-link" href="#">Contact</a>
-                </div>
-              </div>
-            </div>
-        </nav>
+  <div class="container-fluid" id="wrapper-container">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nancy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="container-fluid" id="content">
+
+          <div class="container-fluid" id="content-1"></div> -->
+  </div>
+
+  <!-- <div class="container-fluid bg-nancyLight" id="content"> -->
+
+
+  <!-- </div> -->
+
+  </div>
+
+  <div class="container-fluid bg-nancyDark" id="content">
+
+    <div class="container-fluid" id="content-1">
+      <!-- nedd this to treat it like a row -->
+      <section class="row">
+        <section class="col-md-4 content-1-section d-flex justify-content-center align-items-center">
+          <div class="content-1-section-div"></div>
+        </section>
+        <section class="col-md-4 content-1-section d-flex justify-content-center align-items-center">
+          <div class="content-1-section-div"></div>
+        </section>
+        <section class="col-md-4 content-1-section d-flex justify-content-center align-items-center">
+          <div class="content-1-section-div"></div>
+        </section>
+      </section>
+
     </div>
-    <!-- need module for drop down to work -->
-    <script src="js/index.js" type="module"></script>
+
+  </div>
+
+
+  <!-- need module for drop down to work -->
+  <script src="js/index.js" type="module"></script>
 </body>
+
 </html>

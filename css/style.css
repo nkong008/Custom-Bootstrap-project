@@ -12376,9 +12376,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.wrapper-container {
-  height: 100vh;
+#content {
+  margin-top: 56px;
+  height: calc(100vh - 56px);
+  padding: 0;
 }
-.wrapper-container #nav {
-  height: 70px;
+#content #content-1 {
+  height: 400px;
+  background-color: yellow;
+}
+#content #content-1 .row {
+  height: 100%;
+}
+#content #content-1 .row .content-1-section {
+  height: 100%;
+}
+#content #content-1 .row .content-1-section .content-1-section-div {
+  height: 90%;
+  width: 90%;
+  background-color: rgb(0, 0, 0);
 }/*# sourceMappingURL=style.css.map */

@@ -10,16 +10,38 @@ $custom-theme-colors: (
     "nancyDark": #b34100
 );
 
-$theme-colors:map-merge($custom-theme-colors , $theme-colors);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 // apply bootstrap before the container
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
-.wrapper-container {
-    height: 100vh;
+#wrapper-container {
 
-    #nav {
-        height: 70px;
+}
+#content {
+    margin-top: 56px;
+    height: calc(100vh - 56px);
+    // background-color: green;
+    padding: 0;
+    #content-1 {
+        height: 400px;
+        background-color: yellow;
+        .row {
+            height: 100%;
+            .content-1-section {
+                // background-color: blue;
+                height: 100%;
+                .content-1-section-div {
+                    // make it slightly smaller than the parent to create some space
+                    height: 90%;
+                    width: 90%;
+                    // padding: 2em;
+                    background-color: rgb(0, 0, 0);
+                    
+                }
+
+            }
+        }
     }
 }
