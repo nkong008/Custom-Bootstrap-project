@@ -12,57 +12,120 @@
 <body>
 
   <div class="container-fluid" id="wrapper-container">
-    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" id="nav">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Nancy</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-white" href="#">Nancy</a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Services</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link text-white" href="#">Services</a>
+            <a class="nav-link text-white" href="#">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-    <!-- <div class="container-fluid" id="content">
 
-          <div class="container-fluid" id="content-1"></div> -->
-  </div>
-
-  <!-- <div class="container-fluid bg-nancyLight" id="content"> -->
-
-
-  <!-- </div> -->
-
-  </div>
-
-  <div class="container-fluid bg-nancyDark" id="content">
-
-    <div class="container-fluid" id="content-1">
-      <!-- nedd this to treat it like a row -->
-      <section class="row">
-        <section class="col-md-4 content-1-section d-flex justify-content-center align-items-center">
-          <div class="content-1-section-div"></div>
-        </section>
-        <section class="col-md-4 content-1-section d-flex justify-content-center align-items-center">
-          <div class="content-1-section-div"></div>
-        </section>
-        <section class="col-md-4 content-1-section d-flex justify-content-center align-items-center">
-          <div class="content-1-section-div"></div>
-        </section>
-      </section>
-
+    <!-- start of content1  -->
+    <div class="container" id="content1">
+      <!-- img-fluid makes them change scale -->
+      <div class="row">
+        <!-- when it gets to xs it default to one, creating breakpoint for different sizes, remember there it is out of 12-->
+        <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0001.png" alt="#"></div>
+        <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0002.png" alt="#"></div>
+        <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0003.png" alt="#"></div>
+        <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0004.png" alt="#"></div>
+      </div>
     </div>
+    <!-- end of content1 --------------------------------->
+
+    <!-- start of content 2 -->
+    <div class="container" id="content2">
+      <div class="row">
+        <!-- when it gets to xs it default to one, creating breakpoint for different sizes, remember there it is out of 12-->
+
+        <div class="col-xs-1 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="images/0004.png" alt="#">
+            <div class="card-body bg-nancyLight">
+              <section class="card-title h5 text-nancyDark">Pyrimid 1</section>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusamus. amet
+                consectetur adipisicing elit. Nisi, accusamus.</p>
+              <a href="" class="btn btn-nancyDark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Click Here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-1 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="images/0003.png" alt="#">
+            <div class="card-body bg-nancyLight">
+              <section class="card-title h5 text-nancyDark">Pyrimid 2</section>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusamus. amet
+                consectetur adipisicing elit. Nisi, accusamus.</p>
+              <a href="" class="btn btn-nancyDark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Click Here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-1 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="images/0002.png" alt="#">
+            <div class="card-body bg-nancyLight">
+              <section class="card-title h5 text-nancyDark">Pyrimid 3</section>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusamus. amet
+                consectetur adipisicing elit. Nisi, accusamus.</p>
+              <a href="" class="btn btn-nancyDark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Click Here</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-1 col-md-6 col-xl-3">
+          <div class="card">
+            <img src="images/0001.png" alt="#">
+            <div class="card-body bg-nancyLight">
+              <section class="card-title h5 text-nancyDark">Pyrimid 4</section>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusamus. amet
+                consectetur adipisicing elit. Nisi, accusamus.</p>
+                <a href="" class="btn btn-nancyDark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" -->
+
+      <div class="model" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+      <div class="modal-dialog model-dialog-centered myModel" id="staticBackdrop">
+      </div>
+    </div>
+  </div>
+
+  <!-- end of content 2 ------------------------>
+
+
 
   </div>
 
+  <!-- <div class="container" id="content"> -->
+  <!-- img-fluid makes them change scale -->
+  <!-- <div class="row"> -->
+  <!-- when it gets to xs it default to one, creating breakpoint for different sizes, remember there it is out of 12-->
+  <!-- <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0001.png" alt="#"></div>
+      <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0002.png" alt="#"></div>
+      <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0003.png" alt="#"></div>
+      <div class="col-xs-1 col-md-6 col-xl-3"><img class="img-fluid" src="images/0004.png" alt="#"></div>
+    </div>
+  </div> -->
 
-  <!-- need module for drop down to work -->
+
+  </div>
+
   <script src="js/index.js" type="module"></script>
 </body>
 
