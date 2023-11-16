@@ -1,14 +1,12 @@
 $primary: #f5df4d;
-$secondary: rgb(147,149,151);
-$light: rgb(172,163,202);
+$secondary: rgb(147, 149, 151);
+$light: rgb(172, 163, 202);
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
-$custom-theme-colors: (
-    "nancyLight": #00ffff,
-    "nancyDark": #b34100
-);
+$custom-theme-colors: ("nancyLight": #00ffff,
+    "nancyDark": #b34100);
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
@@ -18,22 +16,32 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 #wrapper-container {
     #nav {
-        height: 80px;;
+        height: 80px;
+        .navbar-nav {
+            background-color: rgb(39, 41, 45);
+            .nav-link {
+                padding-left: 0.5em;
+            }
+        }
     }
+
     #content1 {
         // color: white;
         margin: 80px;
         padding-top: 2em;
+
         img {
             cursor: pointer;
             transition: all 250ms linear;
             filter: grayscale(100%) sepia(0%) contrast(50%);
         }
+
         img:hover {
             filter: grayscale(0%) sepia(100%) contrast(100%);
-            box-shadow: 7px 7px 15px rgba(0,0,0,0.3);
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
         }
     }
+
     #content2 {
         // margin: 2em;
     }
@@ -44,14 +52,31 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
             transition: all 250ms linear;
             filter: grayscale(100%) sepia(0%) contrast(50%);
         }
+
         img:hover {
             filter: grayscale(0%) sepia(100%) contrast(100%);
-            box-shadow: 7px 7px 15px rgba(0,0,0,0.3);
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
         }
-        .myModel {
-            
-        }
+
     }
 
-
 }
+
+.myModal {
+    display: flex;
+    justify-content: center;
+
+    #myModal40 {
+        padding: 2em;
+    }
+    #myModal30 {
+        padding: 2em;
+    }
+    #myModal20 {
+        padding: 2em;
+    }
+    #myModal10 {
+        padding: 2em;
+    }
+}
+

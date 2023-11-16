@@ -12379,6 +12379,12 @@ textarea.form-control-lg {
 #wrapper-container #nav {
   height: 80px;
 }
+#wrapper-container #nav .navbar-nav {
+  background-color: rgb(39, 41, 45);
+}
+#wrapper-container #nav .navbar-nav .nav-link {
+  padding-left: 0.5em;
+}
 #wrapper-container #content1 {
   margin: 80px;
   padding-top: 2em;
@@ -12400,4 +12406,21 @@ textarea.form-control-lg {
 #wrapper-container #content2:hover img:hover {
   filter: grayscale(0%) sepia(100%) contrast(100%);
   box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
+}
+
+.myModal {
+  display: flex;
+  justify-content: center;
+}
+.myModal #myModal40 {
+  padding: 2em;
+}
+.myModal #myModal30 {
+  padding: 2em;
+}
+.myModal #myModal20 {
+  padding: 2em;
+}
+.myModal #myModal10 {
+  padding: 2em;
 }/*# sourceMappingURL=style.css.map */
