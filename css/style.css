@@ -12379,12 +12379,6 @@ textarea.form-control-lg {
 #wrapper-container #nav {
   height: 80px;
 }
-#wrapper-container #nav .navbar-nav {
-  background-color: rgb(39, 41, 45);
-}
-#wrapper-container #nav .navbar-nav .nav-link {
-  padding-left: 0.5em;
-}
 #wrapper-container #content1 {
   margin: 80px;
   padding-top: 2em;
