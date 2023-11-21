@@ -59,6 +59,12 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
         }
 
     }
+}
+
+
+#content-3 {
+    margin-top: 2em;
+    // width: 80%;
 
 }
 
@@ -80,3 +86,4 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
     }
 }
 
+$carousel-transition-duration: .1s;

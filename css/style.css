@@ -12402,6 +12402,10 @@ textarea.form-control-lg {
   box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
 }
 
+#content-3 {
+  margin-top: 2em;
+}
+
 .myModal {
   display: flex;
   justify-content: center;
