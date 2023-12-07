@@ -12403,6 +12403,26 @@ textarea.form-control-lg {
   margin-top: 2em;
 }
 
+#content-4 {
+  padding: 2em;
+}
+#content-4 .accordion-button {
+  transition: all 200ms linear;
+}
+#content-4 .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #000;
+  border-color: transparent;
+}
+
+form {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
 .myModal {
   display: flex;
   justify-content: center;

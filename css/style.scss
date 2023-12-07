@@ -68,6 +68,29 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 }
 
+#content-4 {
+    // height: 100vh;
+    // background-color: #b34100;
+    padding: 2em;
+    .accordion-button {
+        transition: all 200ms linear;
+    }
+    .accordion-button:not(.collapsed) {
+        color: white;
+        background-color: #000;
+        border-color: transparent;
+    }
+}
+
+form {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+}
+
 .myModal {
     display: flex;
     justify-content: center;
